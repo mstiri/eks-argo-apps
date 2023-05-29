@@ -1,0 +1,22 @@
+
+repoUrl: "https://github.com/mstiri/eks-argo-apps"
+targetRevision: HEAD
+region: ''
+account: ''
+clusterName: ''
+destinationServer: "https://kubernetes.default.svc"
+argoNamespace: 'argocd'
+argoProject: 'platform'
+
+# cert-manager values
+cert-manager:
+  enable: false
+  createNamespace: true
+  serviceAccountName:
+
+# ExternalDNS values
+externalDns:
+  enable: false
+  createNamespace: true
+  serviceAccountName:
+  zoneIdFilter:
