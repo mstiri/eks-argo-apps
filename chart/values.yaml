@@ -1,4 +1,3 @@
-
 repoUrl: "https://github.com/mstiri/eks-argo-apps"
 targetRevision: HEAD
 region: ''
