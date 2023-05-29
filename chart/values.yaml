@@ -10,9 +10,10 @@ argoProject: 'platform'
 
 # cert-manager values
 cert-manager:
-  enable: false
+  enable: true
   createNamespace: true
-  serviceAccountName:
+  serviceAccoun:
+    create: true
 
 # ExternalDNS values
 externalDns:
