@@ -8,7 +8,7 @@ argoNamespace: 'argocd'
 argoProject: 'platform'
 
 # cert-manager values
-cert-manager:
+certManager:
   enable: true
   createNamespace: true
   serviceAccoun:
